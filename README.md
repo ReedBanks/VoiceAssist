@@ -9,6 +9,6 @@ Build ai voice assistant
 - "thats all for now"
 
 # Setup 
-- Clone repo
+- Fork & Clone repo
 - Switch in pre_main branch
 - Do whatever you want
