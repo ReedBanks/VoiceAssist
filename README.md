@@ -10,5 +10,36 @@ Build ai voice assistant
 
 # Setup 
 - Fork & Clone repo
-- Switch in pre_main branch
+```bash
+$ git checkout pre_main 
+
+NB: Create new branch for new features
+```
 - Do whatever you want
+
+## Project Structure
+```
+voiceassist/
+│
+├── data/                  # Training data, datasets, and scraped info
+│   └── raw/               # Raw audio/text data
+│   └── processed/         # Cleaned and processed data
+|
+├── demos/                  # Training data, datasets, and scraped info
+│   └── Voice_turtle/      # Voice Controlled cursor game with turtle
+|       └── raw/               # Raw audio/text data
+│       └── processed/         # Cleaned and processed data
+│
+├── models/                # ML models and training scripts
+│   └── voice_recognition/ # Voice recognition model code
+│
+├── scraping/              # Web scraping scripts
+│
+├── assistant/             # Core assistant logic and main app
+│
+├── tests/                 # Unit and integration tests
+│
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── .gitignore             # Git ignore file
+```
